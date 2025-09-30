@@ -9,4 +9,9 @@ eureka:
     registerWithEureka: false
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+spring:
+  boot:
+    admin:
+      ui:
+        title: "EazyBank Admin Dashboard"
     
